@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.automation.AutomationPractice">
+      <class name="com.automation.AutomationPracticeTest">
         <methods>
           <include name="openBrowser"/>
+          <include name="automationPracTest"/>
           <include name="openURL"/>
-          <include name="automationPrac"/>
         </methods>
-      </class> <!-- com.automation.AutomationPractice -->
+      </class> <!-- com.automation.AutomationPracticeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
