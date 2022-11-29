@@ -20,10 +20,10 @@ public class BaseClass {
 	@BeforeSuite
 	public void openBrowser()
 	{
-		ChromeOptions opt = new ChromeOptions();
-		opt.addArguments("--headless");
+//		ChromeOptions opt = new ChromeOptions();
+//		opt.addArguments("--headless");
 		WebDriverManager.chromedriver().setup();
-		driver= new ChromeDriver(opt);
+		driver= new ChromeDriver();
 	}
 	
 	@BeforeTest
